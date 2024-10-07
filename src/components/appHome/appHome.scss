@@ -1,0 +1,20 @@
+.home {
+    height: 50vh;
+    text-align: center;
+    margin-top: 100px;
+    &__title {
+        font-size: 36px;
+	    color: rgba(231, 57, 57, 0.815);
+    }
+    &__subtitle {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    &__descr {
+        margin-top: 30px;
+        font-size: 24px;
+        span {
+            font-weight: 900;
+        }
+    }
+}
